@@ -44,3 +44,13 @@ skips.
 
 Deterministic and offline. Pairs with `trajectory-eval` (the gate),
 `agent-lab` (the run source) and `cost-router` (which model produced the run).
+
+## Demo
+
+`demo.py` reproduces the recorded demo run end to end, offline (standard
+library only, no model calls):
+
+    python demo.py
+
+It executes the library's real code path and prints the same output shown in
+the recorded demo video.
